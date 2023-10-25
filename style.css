@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     background-color:rgb(101, 34, 125) ; 
+     font-family: Arial, Helvetica, sans-serif; 
+}
+
+h1 {
+    color: rgb(42, 16, 45) ; 
+    margin: 20px 0;
+}
+
+.progress {
+    height: 5px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.progress--bar {
+    background-color: white ;
+    height: 100%;
+    transition: all ease 0.5s;
+}
+
+.questionArea,
+.scoreArea {
+    display: none;
+}
+
+.questionArea {
+    max-width: 500px;
+    width: 100%;
+}
+
+.question {
+    color: rgb(255, 255, 255) ;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background-color:rgb(208, 80, 208); 
+    border-radius: 10px;
+    margin-bottom: 5px;
+    color: white ; 
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.option span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-right: 10px;
+    background-color:rgb(202, 68, 202) ;
+    color: white ; 
+}
+
+
+.option:hover {
+  background-color:rgb(158, 45, 158)
+}
+
+.scoreArea {
+    background-color: rgb(248, 181, 242); 
+    padding: 20px;
+    border-radius: 50px;
+    margin: 10px;
+    text-align: center;
+}
+
+.prizeImage {
+    width: auto;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.scoreText1 {
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.scorePct {
+    color: rgb(123, 36, 123);
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.scoreText2 {
+    font-size: 16px;
+    color: black; 
+    margin-bottom: 10px;
+}
+
+.scoreArea button {
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(211, 74, 211) ;
+    color: white ;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.scoreArea button:hover {
+  background-color: rgb(211, 74, 211) ; 
+}
+
+footer {
+    margin-top: 20px;
+    color: white;
+    font-size: 13px;
+}
