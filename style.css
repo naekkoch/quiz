@@ -33,7 +33,12 @@ h1 {
     transition: all ease 0.5s;
 }
 
-.questionArea,
+.questionArea{
+    background-color: rgb(253, 152, 253);
+        border-radius: 20px;
+        padding: 10px;
+    }
+
 .scoreArea {
     display: none;
 }
@@ -45,7 +50,8 @@ h1 {
 
 .question {
     color: rgb(255, 255, 255) ;
-    font-size: 18px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 20px 0;
 }
 
@@ -131,4 +137,7 @@ footer {
     margin-top: 20px;
     color: white;
     font-size: 13px;
+    background-color: rgb(218, 76, 218);
+        border-radius: 20px;
+        padding: 10px;
 }
